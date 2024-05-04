@@ -1,0 +1,14 @@
+#google_translate_element {
+    /* Adjust positioning as needed */
+    position: absolute;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align vertically with Job Portal text */
+    right: 15%; /* Adjust horizontally */
+    top: 1%; /* Adjust vertically */
+    z-index: 1; /* Ensure the Google Translate element is behind the Navbar */
+}
+
+/* Adjust z-index of the Navbar */
+.AppBar {
+    z-index: 2; /* Ensure the Navbar is above the Google Translate element */
+}

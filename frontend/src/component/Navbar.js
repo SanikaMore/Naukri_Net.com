@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './Navbar.css'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -79,6 +80,7 @@ const Navbar = () => {
                     >
                         JOB PORTAL
                     </Typography>
+                    <div id="google_translate_element"></div>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -135,6 +137,7 @@ const Navbar = () => {
                     >
                         JOB PORTAL
                     </Typography>
+                    
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {/* menu desktop */}
 
@@ -201,6 +204,9 @@ const Navbar = () => {
                 </Toolbar>
             </Container>
         </AppBar>
+
+
+        
     );
 }
 export default Navbar;
